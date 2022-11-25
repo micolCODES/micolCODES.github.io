@@ -181,7 +181,7 @@ input {
 }
 
 .mainBody{
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 5%;
 }
@@ -300,6 +300,27 @@ input {
   font-size: large;
 }
 
+table {
+  width: 100%;
+}
+table, th, td {
+  border: 3px solid white;
+  border-collapse: collapse;
+  color: #465d42;
+  padding: 4px;
+}
+thead{
+  font-weight: 400;
+  background-color: #c0cebc;
+}
+td {
+  background-color: rgba(236, 239, 235, .5);
+  text-align: center;
+}
+td:nth-child(1){
+  font-weight: 400;
+}
+
 
 @media all and (max-width: 500px) {
   .grid {
@@ -329,6 +350,8 @@ input {
     font-size: 22px;
   }
 }
+
+
 
 @-webkit-keyframes sun-rise {
   from {
